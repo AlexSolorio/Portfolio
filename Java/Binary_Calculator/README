@@ -1,0 +1,12 @@
+BinaryCalculator: A program that can add, subtract, multiply, or divide binary numbers using only logical operations
+
+Enter commands of the form: <binary operand 1> <operator> <binary operand 2>
+
+NOTES: 
+-The program can handle binary numbers up to 64 bits long
+-All binary values are considered to be "signed" (ie: 101 = -3, but 0101 = 5)
+-Because the program is designed to mimic computer hardware bit manipulations, some answers could
+	appear "incorrect" due to bit spillage into the sign-bit. For example:
+	The result of 01 + 01 will be 10, which is -2 in binary
+	But when we add more leading 0's,
+	The result of 001 + 001 will be 010, which is 2 in binary.
