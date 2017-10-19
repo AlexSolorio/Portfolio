@@ -1,0 +1,9 @@
+graph-lotr.txt
+graph24-6.txt
+WarAndPeace.txt_719_1420_graph.txt
+WarAndPeace.txt_1171_2840_graph.txt
+WarAndPeace.txt_1906_5680_graph.txt
+WarAndPeace.txt_2993_11346_graph.txt
+WarAndPeace.txt_4824_22692_graph.txt
+WarAndPeace.txt_7708_45377_graph.txt
+WarAndPeace.txt_11765_90758_graph.txt

@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "99e00b50-8cb7-4e65-9a3e-a3618402ff32++4965",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "99e00b50-8cb7-4e65-9a3e-a3618402ff32++4965" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "99e00b50-8cb7-4e65-9a3e-a3618402ff32++4965" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D885FB0D-5451-443C-8D97-FFC2ED4FB28E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "99e00b50-8cb7-4e65-9a3e-a3618402ff32++4965" : "Systems%20Programming\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Lab05",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Lab05\/Lab05.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/svn.cs.du.edu\/courses",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "99e00b50-8cb7-4e65-9a3e-a3618402ff32++4965"
+    }
+  ]
+}

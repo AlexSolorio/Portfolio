@@ -1,0 +1,4 @@
+This project uses a grid to represent a forest landscape with possible land values of DRY and VEGETATION.
+It runs through thousands of trials using either the depth first search or breadth first search algorithms
+to compute what the highest probability of vegetation for each tile could be so that the chance of a fire
+spreading from one side of the forest to the other is less than half.

@@ -1,0 +1,5 @@
+Hobbiton     Lothlorien 100.2  Bree 5.2
+Lothlorien   Gondor 10.9       Bree 20.7
+Gondor       Rivendell 40.98
+Bree         Lothlorien 30.3   Gondor 92.0    Rivendell 23.6
+Rivendell    Gondor 68         Hobbiton 77.7
