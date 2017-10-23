@@ -1,10 +1,5 @@
 
-This folder contains “STLwriter” (within the Homework8 folder), which I completed for my Systems Programming course and is my largest 
-C++ project to date. Throughout the quarter, our weekly homework assignments built on each other so instead of uploading each one, 
-I simply uploaded this final assignment. Essentially, I built the complex program using my own data structures, algorithms,
-and classes to be able to create .stl files (for 3D printing/modeling). It does so using functions I wrote to add or subtract
-basic 3D shapes (spheres, cubes, lines) from a 3D grid of voxels. If you run the program as is, it will create three .stl
-files showcasing the abilities of the program. For more info, see the comment at the top of each class, starting with main.cpp.
+This folder contains “STLwriter” (within the Homework8 folder), which I completed for my Systems Programming course and is my largest C++ project to date. Throughout the quarter, our weekly homework assignments built on each other so instead of uploading each one, I simply uploaded this final assignment. Essentially, I built the complex program using my own data structures, algorithms, and classes to be able to create .stl files (for 3D printing/modeling). It does so using functions I wrote to add or subtract basic 3D shapes (spheres, cubes, lines) from a 3D grid of voxels. If you run the program as is, it will create three .stl files showcasing the abilities of the program. For more info, see the comment at the top of each class, starting with main.cpp.
 
 ————————————————————————————————
 
