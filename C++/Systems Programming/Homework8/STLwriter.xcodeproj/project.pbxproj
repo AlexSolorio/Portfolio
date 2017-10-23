@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA4E6EDD1E748AC1004A218A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4E6EDC1E748AC1004A218A /* main.cpp */; };
+		FA4E6EE51E748BA9004A218A /* CSG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4E6EE31E748BA9004A218A /* CSG.cpp */; };
+		FA4E6EEA1E7495C0004A218A /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4E6EE81E7495C0004A218A /* Timer.cpp */; };
+		FA4E6EED1E7497EC004A218A /* VoxelShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4E6EEB1E7497EC004A218A /* VoxelShape.cpp */; };
+		FA4E6EF11E74981F004A218A /* BitVector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA4E6EEF1E74981F004A218A /* BitVector.cpp */; };
+		FA7746911E77629C00855444 /* surfaceExtraction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA77468F1E77629C00855444 /* surfaceExtraction.cpp */; };
+		FA7746941E77665400855444 /* Line.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7746931E77665400855444 /* Line.cpp */; };
+		FA7746961E77667F00855444 /* Sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7746951E77667F00855444 /* Sphere.cpp */; };
+		FA7746981E7766A400855444 /* Cube.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FA7746971E7766A400855444 /* Cube.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FA4E6ED71E748AC1004A218A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FA4E6ED91E748AC1004A218A /* STLwriter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = STLwriter; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA4E6EDC1E748AC1004A218A /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FA4E6EE31E748BA9004A218A /* CSG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CSG.cpp; sourceTree = "<group>"; };
+		FA4E6EE41E748BA9004A218A /* CSG.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CSG.hpp; sourceTree = "<group>"; };
+		FA4E6EE61E748D99004A218A /* Shape.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Shape.h; sourceTree = "<group>"; };
+		FA4E6EE71E748DBE004A218A /* Line.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		FA4E6EE81E7495C0004A218A /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Timer.cpp; sourceTree = "<group>"; };
+		FA4E6EE91E7495C0004A218A /* Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timer.h; sourceTree = "<group>"; };
+		FA4E6EEB1E7497EC004A218A /* VoxelShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VoxelShape.cpp; sourceTree = "<group>"; };
+		FA4E6EEC1E7497EC004A218A /* VoxelShape.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VoxelShape.hpp; sourceTree = "<group>"; };
+		FA4E6EEE1E74981F004A218A /* MyArray.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MyArray.hpp; sourceTree = "<group>"; };
+		FA4E6EEF1E74981F004A218A /* BitVector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BitVector.cpp; sourceTree = "<group>"; };
+		FA4E6EF01E74981F004A218A /* BitVector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BitVector.hpp; sourceTree = "<group>"; };
+		FA77468D1E77215800855444 /* Sphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sphere.h; sourceTree = "<group>"; };
+		FA77468E1E77370300855444 /* Cube.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		FA77468F1E77629C00855444 /* surfaceExtraction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = surfaceExtraction.cpp; sourceTree = "<group>"; };
+		FA7746901E77629C00855444 /* surfaceExtraction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = surfaceExtraction.hpp; sourceTree = "<group>"; };
+		FA7746921E7762D400855444 /* SharedQueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SharedQueue.h; sourceTree = "<group>"; };
+		FA7746931E77665400855444 /* Line.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Line.cpp; sourceTree = "<group>"; };
+		FA7746951E77667F00855444 /* Sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Sphere.cpp; sourceTree = "<group>"; };
+		FA7746971E7766A400855444 /* Cube.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Cube.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA4E6ED61E748AC1004A218A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA4E6ED01E748AC1004A218A = {
+			isa = PBXGroup;
+			children = (
+				FA4E6EDB1E748AC1004A218A /* STLwriter */,
+				FA4E6EDA1E748AC1004A218A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA4E6EDA1E748AC1004A218A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E6ED91E748AC1004A218A /* STLwriter */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA4E6EDB1E748AC1004A218A /* STLwriter */ = {
+			isa = PBXGroup;
+			children = (
+				FA4E6EDC1E748AC1004A218A /* main.cpp */,
+				FA4E6EE81E7495C0004A218A /* Timer.cpp */,
+				FA4E6EE91E7495C0004A218A /* Timer.h */,
+				FA4E6EEE1E74981F004A218A /* MyArray.hpp */,
+				FA4E6EEF1E74981F004A218A /* BitVector.cpp */,
+				FA4E6EF01E74981F004A218A /* BitVector.hpp */,
+				FA4E6EEB1E7497EC004A218A /* VoxelShape.cpp */,
+				FA4E6EEC1E7497EC004A218A /* VoxelShape.hpp */,
+				FA4E6EE31E748BA9004A218A /* CSG.cpp */,
+				FA4E6EE41E748BA9004A218A /* CSG.hpp */,
+				FA77468F1E77629C00855444 /* surfaceExtraction.cpp */,
+				FA7746901E77629C00855444 /* surfaceExtraction.hpp */,
+				FA7746921E7762D400855444 /* SharedQueue.h */,
+				FA4E6EE61E748D99004A218A /* Shape.h */,
+				FA7746931E77665400855444 /* Line.cpp */,
+				FA4E6EE71E748DBE004A218A /* Line.h */,
+				FA7746951E77667F00855444 /* Sphere.cpp */,
+				FA77468D1E77215800855444 /* Sphere.h */,
+				FA77468E1E77370300855444 /* Cube.h */,
+				FA7746971E7766A400855444 /* Cube.cpp */,
+			);
+			name = STLwriter;
+			path = Homework8;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA4E6ED81E748AC1004A218A /* STLwriter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA4E6EE01E748AC1004A218A /* Build configuration list for PBXNativeTarget "STLwriter" */;
+			buildPhases = (
+				FA4E6ED51E748AC1004A218A /* Sources */,
+				FA4E6ED61E748AC1004A218A /* Frameworks */,
+				FA4E6ED71E748AC1004A218A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STLwriter;
+			productName = Homework8;
+			productReference = FA4E6ED91E748AC1004A218A /* STLwriter */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA4E6ED11E748AC1004A218A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alex Solorio";
+				TargetAttributes = {
+					FA4E6ED81E748AC1004A218A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FA4E6ED41E748AC1004A218A /* Build configuration list for PBXProject "STLwriter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA4E6ED01E748AC1004A218A;
+			productRefGroup = FA4E6EDA1E748AC1004A218A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA4E6ED81E748AC1004A218A /* STLwriter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA4E6ED51E748AC1004A218A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA7746981E7766A400855444 /* Cube.cpp in Sources */,
+				FA4E6EF11E74981F004A218A /* BitVector.cpp in Sources */,
+				FA7746941E77665400855444 /* Line.cpp in Sources */,
+				FA7746961E77667F00855444 /* Sphere.cpp in Sources */,
+				FA4E6EEA1E7495C0004A218A /* Timer.cpp in Sources */,
+				FA4E6EDD1E748AC1004A218A /* main.cpp in Sources */,
+				FA4E6EED1E7497EC004A218A /* VoxelShape.cpp in Sources */,
+				FA7746911E77629C00855444 /* surfaceExtraction.cpp in Sources */,
+				FA4E6EE51E748BA9004A218A /* CSG.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FA4E6EDE1E748AC1004A218A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FA4E6EDF1E748AC1004A218A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FA4E6EE11E748AC1004A218A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FA4E6EE21E748AC1004A218A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA4E6ED41E748AC1004A218A /* Build configuration list for PBXProject "STLwriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4E6EDE1E748AC1004A218A /* Debug */,
+				FA4E6EDF1E748AC1004A218A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA4E6EE01E748AC1004A218A /* Build configuration list for PBXNativeTarget "STLwriter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA4E6EE11E748AC1004A218A /* Debug */,
+				FA4E6EE21E748AC1004A218A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA4E6ED11E748AC1004A218A /* Project object */;
+}
