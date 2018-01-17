@@ -1,0 +1,186 @@
+html {
+    background-color: BurlyWood;
+    font-size: 16px;
+}
+
+body {
+    background-color: #faf3eb;
+    font-family: Verdana, Geneva, sans-serif;
+    width: 80%;
+    margin: 1em auto;
+    border-radius: 1em;
+    padding: 1em;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+main article>h1 {
+    font-size: 1.5em;
+    text-align: center;
+    background: #efdcc3;
+}
+
+main a, footer a{
+    text-decoration: none;
+    color: saddlebrown;
+    padding: 0em;
+}
+
+main a:hover, footer a:hover {
+    font-weight: bold;
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin: 0.125em 0em;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+img {
+    max-width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0.5em;
+    display: inline;
+}
+
+header li {
+    display: inline;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav img {
+    width: 3em;
+    height: 3em;
+}
+
+body>nav {
+    background: #efdcc3;
+    text-align: center;
+    padding: 0.25em 0em;
+}
+
+body>nav a {
+    text-decoration: none;
+    color: black;
+    padding: 0.1em;
+}
+
+body>nav a:hover {
+    background: #d9ad73;
+}
+
+header>nav a {
+    margin: 0.5em;
+}
+
+main article {
+    margin: 4em 0em 0em 0em;
+}
+
+article div {
+        position: relative;
+        padding-bottom: 56.25%; /* 16:9 aspect ratio maintained */
+    margin: 1em 0em;
+}
+
+iframe {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+}
+
+footer {
+    margin-top: 5em;
+    font-size: 0.75em;
+}
+
+footer p {
+    text-align: center;
+}
+
+@media screen and (max-width:30em) {
+    
+    p {
+        font-size: 0.85em;
+    }
+    
+    h1 {
+        font-size: 1.25em;
+    }
+    
+    footer {
+        font-size: 0.5em;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+    
+    nav img {
+        height: 2em;
+        width: 2em;
+    }
+    
+    article>ul {
+        font-size: 0.85em;
+    }
+    
+    section>ul {
+        font-size: 0.85em;
+    }
+    
+    main article>h1 {
+        font-size: 1.1em;
+    }
+    
+    main nav h1 {
+        font-size: 1.1em;
+    }
+    
+    nav ul {
+        font-size: 0.85em;
+    }
+    
+}
+
+@media screen and (min-width:48em) {
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 1em;
+    }
+    
+    body>nav a {
+        padding: 1em;
+    }
+    
+    header {
+        justify-content: space-between;
+    }
+     
+}
+
+@media screen and (min-width:80em) {
+    
+    body {
+        width: 60em;
+    }
+    
+}

@@ -1,0 +1,75 @@
+main>nav {
+    text-align: left;
+    padding: 0.25em 0em;
+}
+
+nav h1 {
+    font-size: 1.5em;
+    margin: 0.5em 0.1em;
+}
+
+main>nav ul {
+    display: block;
+}
+
+main section h1 {
+    font-size: 1.25em;
+    text-align: center;
+}
+
+main>nav ul {
+    padding: 0em;
+}
+
+table {
+    width: 80%;
+    margin: 2.5em auto;
+    border: 2px solid #efdcc3;
+    border-spacing: 0em;
+}
+
+caption {
+    font-size: 1.55em;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #efdcc3;
+}
+
+th {
+    background-color: #ce954b;
+}
+
+table tr td a {
+    display:block;
+    height:100%;
+    width:100%;
+    color: black;
+    font-weight: normal;
+}
+
+table tr td a:hover {
+    font-weight: normal;
+}
+
+tr:hover {
+    background-color: burlywood;
+}
+
+@media screen and (max-width:30em) {
+    
+    main section h1 {
+        font-size: 1em;
+    }
+    
+    caption {
+        font-size: 1em;
+    }
+    
+    th, td {
+        font-size: 0.85em;
+    }
+    
+}
+
