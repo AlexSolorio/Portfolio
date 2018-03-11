@@ -1,0 +1,7 @@
+For my final project in Advanced GIS, I created a tool that takes as input one or more text/CSV files containing latitude and longitude data for points, and converts that data into a shapefile compatible with ArcGIS software.
+
+This tool automates the tedious process of inputting latitude and longitude data into ArcMap for users who are unfamiliar with Python. The User Interface shown in the slideshow takes user input and directs it to the Python script using the arcpy library's GetParameterAsText() function.
+
+I designed this tool to work with a variety of input types (one or multiple files, different ordering of latitude and longitude values, different delimiters, etc) and produce a variety of outputs (either point, polyline, or polygon shapefiles). The user can therefore use this ArcGIS tool for a variety of projects.
+
+Created 3/11/2018 by Alex Solorio
