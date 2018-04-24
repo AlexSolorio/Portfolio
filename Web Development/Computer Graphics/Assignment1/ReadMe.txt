@@ -1,4 +1,4 @@
-This project was created in my Computer Graphics course in winter 2018. 
+I created this project in my Computer Graphics course in winter 2018. 
 
 Using the WebGL API for computer graphics, I created a simple drawing tool in JavaScript and HTML. Using the canvas, buttons, and color sliders provided, the user can draw rectangles of different colors ad sizes by using the mouse.
 

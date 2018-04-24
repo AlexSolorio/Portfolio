@@ -1,4 +1,4 @@
-This project was created in my Computer Graphics course in winter 2018. 
+I created this project in my Computer Graphics course in winter 2018. 
 
 Using the WebGL API for computer graphics, I created a 3-D model of a scene. The scene consists of a rocket ship and two cubes, with the rocket ship repeatedly flying back and forth between the cubes. This scene is composed of JSON objects, found in RedSpacecraft.json and ColorCube.json. The bulk of the project can be found in SceneL5.js and JSONModelL5.js, which both have short descriptions at the top of the file.
 
