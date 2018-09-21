@@ -1,0 +1,20 @@
+SUCMS - Simple UDP Content Management System
+
+This project was created for my Computer Networking course in Spring 2018.
+
+Task: Create a UDP-based CMS that meets the following requirements:
+-Allows for listing, reading. creation/modification, and deletion of files
+-Each file action (list, read, write, delete) has a client program such that users can specify UN/PW and action to remotely connect with the server and control their files
+-The system should handle files of arbitrary size
+
+The server communication protocols are outlined in the four pdf files in this folder.
+
+The four client .cpp files are to be used for the following tasks:
+sucms_list: the client that sends/receives list commands from the server
+sucms_read: client that receives remote files from the server
+sucms_write: client that sends local files to the server
+sucms_delete: client that deletes files from the remote server
+
+The code for the server is not in this project, as the professor supplied a working server to us.
+
+Upon completion of this project, I was able to run these four files on the command line to successfully complete all four tasks.

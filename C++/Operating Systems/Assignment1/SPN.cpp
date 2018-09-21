@@ -81,10 +81,10 @@ void SPN::runSimulation(){
             tmpProcess.predictionValue = 0.0;
             
             //set timeBlocked
-            tmpProcess.timeBlocked = 0.0;
+            tmpProcess.timeBlocked = aTime - SPN::block_duration;
             
             //add tmpProcess to the processes array
-            SPN::readyProcesses.push(tmpProcess);
+            SPN::blockedProcesses.push_back(tmpProcess);
         }
         
         //Run processes until all are finished, printing key information to standard output
@@ -110,8 +110,8 @@ void SPN::runSimulation(){
                 
                 //print stuff for this process
                 std::cout   << processStartTime << "\t"
-                            << tmpProcess.processName << "\t"
-                            << currentProcessRunTime << "\t";
+                << tmpProcess.processName << "\t"
+                << currentProcessRunTime << "\t";
                 
                 
                 //update prediction value for this process
@@ -119,8 +119,8 @@ void SPN::runSimulation(){
                     tmpProcess.predictionValue = currentProcessRunTime;
                 } else {
                     tmpProcess.predictionValue =
-                                (SPN::prediction_weight * tmpProcess.predictionValue) +
-                                ((1.0 - SPN::prediction_weight) * currentProcessRunTime);
+                    (SPN::prediction_weight * tmpProcess.predictionValue) +
+                    ((1.0 - SPN::prediction_weight) * currentProcessRunTime);
                 }
                 
                 //update simTime
@@ -139,7 +139,7 @@ void SPN::runSimulation(){
                 
                 //go through blocked vector and unblock any processes that should be unblocked
                 unblockProcesses(simTime);
-
+                
             }
             
             else { //There are no ready processes, idle interval
@@ -162,8 +162,8 @@ void SPN::runSimulation(){
                     
                     //print stuff for the idle time
                     std::cout   << simTime << "\t"
-                                << "(IDLE)\t"
-                                << idleTime << "\tI\n";
+                    << "(IDLE)\t"
+                    << idleTime << "\tI\n";
                     
                     //The idle interval is equal to the length of lowestTimeBlocked
                     simTime += idleTime;
@@ -201,6 +201,7 @@ void SPN::unblockProcesses(float simTime){
             tmpProcess.timeBlocked = 0.0;
             SPN::readyProcesses.push(tmpProcess);
             SPN::blockedProcesses.erase(SPN::blockedProcesses.begin() + i);
+            i--;
         }
     }
 }
