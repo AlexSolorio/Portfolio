@@ -1,0 +1,9 @@
+TCP P2P Chat Network
+
+A simple chat program that allows users on any internet-connected computer to join a P2P network and exchange messages with each other. 
+
+Users running the program enter which IP/port they would like to connect using, and an IP/port of a "peer" that they would like to connect to on another machine. Upon successful connection, the user is prompted to enter a chat username, and then can proceed to exchange messages live on the P2P network until they exit the network.
+
+The main program (main.cpp) for each client contains a loop (line 355- yes, I know it's long) where that client continuously monitors to see if peers are attempting to connect to it, monitors for incoming messages from peers, gossips (shares) peer information with its connections, and sends messages to peers when they are entered.
+
+This project was created for my Computer Networking course in Spring 2018.
